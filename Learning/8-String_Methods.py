@@ -1,12 +1,12 @@
 # String Methods 
 # Use-Case : Cleaning, Formatting, Validation, Transformation
 
-Text = "          Hello Python Bro    "
+# Text = "          Hello Python Bro    "
 
 # Remove spaces from text
 # print("Remove spaces:",Text.strip())
 
-Text2 = "Hello Python Bro"
+# Text2 = "Hello Python Bro"
 
 # Convert to UpperCase letters
 # print("Capital letters:", Text2.upper())
@@ -14,7 +14,7 @@ Text2 = "Hello Python Bro"
 # print("Capital letters:", Text.strip().upper())
 
 # capitalize the word - only first letter of the first word is capitalize and other will be lowercase
-print("Capitalize the text2:", Text2.capitalize())
+# print("Capitalize the text2:", Text2.capitalize())
 
 # Convert to proper case
 # print("Proper Case:", Text2.title())
@@ -31,23 +31,23 @@ print("Capitalize the text2:", Text2.capitalize())
 # check whether text start with something
 # print("Start with hello?", Text2.startswith("Hello"))
 
-Text3 = "965464131"
+# Text3 = "965464131"
 # check whether text start with number
 # print("Is this numeric", Text3.isnumeric())
 
-msg = "Welcome to New Python World"
+# msg = "Welcome to New Python World"
 
 # Splits msg String into list of words
-words = msg.split()
+# words = msg.split()
 # print("Word list:", words)
 
 # Join with hiphen(-)
-joined_text = "-".join(words)
+# joined_text = "-".join(words)
 # print("Joined text with -:", joined_text)
 
 Text2 = "Hello Python Bro"
 # Find the position of letter
-# print("Find the pos of P:", Text2.find("P"))
+print("Find the pos of P:", Text2.find("P"))
 
 # Email = "student@gmail.com"
 # domain = Email[Email.find("@")+1:]
@@ -55,9 +55,9 @@ Text2 = "Hello Python Bro"
 
 # Assessment : Clean Price (Remove Special Characters)
 # Example : "Price: $2500/-" --> "2500"
-price = "Price: $2500/-"
-Clean_Price = price.replace("Price:","")\
-                   .replace("$","")\
-                   .replace("/-","")\
-                   .strip()
-print("The final Clean Price is here:",Clean_Price)
+# price = "Price: $2500/-"
+# Clean_Price = price.replace("Price:","")\
+#                    .replace("$","")\
+#                    .replace("/-","")\
+#                    .strip()
+# print("The final Clean Price is here:",Clean_Price)

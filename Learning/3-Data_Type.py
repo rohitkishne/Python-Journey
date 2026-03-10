@@ -35,9 +35,9 @@
 # print(Year)
 
 # Range - indexing
-# count = range(5)
-# print(list(count))
-# print(tuple(count))
+count = range(5)
+print(list(count))
+print(tuple(count))
 
 # 4) Boolean Type - bool
 # bool - True/False
