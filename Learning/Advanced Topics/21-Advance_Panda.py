@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Load cleaned employee data
-df = pd.read_csv(r"D:\Excels Project\Python\Learning\Advance_Topics\CleanDataPracticeFile.csv")
+df = pd.read_csv("CleanDataPracticeFile.csv")
 # print("Data Loaded -----------------------------------")
 # print(df)
 
@@ -32,4 +32,5 @@ df = pd.read_csv(r"D:\Excels Project\Python\Learning\Advance_Topics\CleanDataPra
 avg_Sales = df.groupby("Region")["Sales"].sum()
 # print(avg_Sales)
 # sort_Avg_Sales = avg_Sales.sort_values(ascending=False)
+
 # print(sort_Avg_Sales)
