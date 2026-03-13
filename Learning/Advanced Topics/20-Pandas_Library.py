@@ -26,7 +26,7 @@ import pandas as pd
 # print(df)
 
 # Load the CSV file using Pandas
-df = pd.read_csv(r"EmployeeData.csv")
+df = pd.read_csv("EmployeeData.csv")
 print("------------------ Row Data ----------------------")
 # print(df.head())  # head() ---- Top Five Record show by default
 # print(df.tail())  # tail() ---- Bottom Five Record show by default
@@ -128,4 +128,5 @@ print("-------------------------output--------------------")
 # Selected_Column = df[["ID","Full Name","Dept"]]
 # Selected_Column.to_csv("Selected_Column_file.csv", index=False)
 # print("File has been Created")
+
 
