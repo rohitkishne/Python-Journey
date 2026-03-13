@@ -1,0 +1,13 @@
+OrderID,Date,Employee,Region,Category,Sales,Quantity,Discount
+1,2024-01-05,Alice,North,Electronics,1200,2,0.1
+2,2024-01-07,Bob,South,Furniture,800,1,0.0
+3,2024-01-10,Charlie,East,Electronics,1500,3,0.15
+4,2024-01-12,Alice,North,Office Supplies,200,10,0.0
+5,2024-02-01,Bob,South,Electronics,2500,5,0.2
+6,2024-02-15,Charlie,West,Furniture,1100,2,0.1
+7,2024-02-20,Alice,North,Furniture,950,1,0.05
+8,2024-03-05,Bob,East,Office Supplies,450,15,0.1
+9,2024-03-12,Charlie,West,Electronics,3000,4,0.25
+10,2024-03-25,Alice,South,Office Supplies,150,5,0.0
+11,2024-04-02,Bob,North,Electronics,1800,2,0.1
+12,2024-04-15,Charlie,East,Furniture,2200,3,0.1

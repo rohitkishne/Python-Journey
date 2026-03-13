@@ -1,0 +1,14 @@
+ID,Full Name,Dept,Annual_Salary,JoinDate,Remote_Status
+101,alice johnson,HR,60000,2020/01/15,YES
+102,Bob Smith,it,85000,2018-03-22,No
+103,CHARLIE DAVIS,IT,,2021-06-01,No
+104,Diana Prince,Marketing,78000,2019-11-10,yes
+105,Evan Wright,Sales,55000,22-02-15,Maybe
+102,Bob Smith,IT,85000,2018-03-22,No
+106,Fiona Glen,hr,62000,nan,No
+107,,IT,88000,2020-05-20,Yes
+108,Hannah Rose,SALES,fifty thousand,2023-01-12,NO
+109,Ian Thorpe,Marketing,71000,2021-04-18,n/a
+109,Ian Thorpe,Marketing,71000,2021-04-18,n/a
+110,Julia West,IT,95000,2017-12-05,Yes
+102,Bob Smith,it,85000,2018-03-22,No
