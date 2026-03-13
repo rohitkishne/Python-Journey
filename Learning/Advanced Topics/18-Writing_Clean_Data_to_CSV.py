@@ -4,7 +4,7 @@ import csv
 # # First Example --------
 # # Clean Name (strip + title)
 # cleaned_Name = []
-# with open("Learning\Advance_Topics\practice.csv","r") as f:
+# with open("practice.csv","r") as f:
 #   reader = csv.DictReader(f)
 #   for row in reader:
 #     row["Name"] = row["Name"].strip().title()
@@ -28,7 +28,7 @@ import csv
 # }
 
 # output = []
-# with open("D:\Excels Project\Python\Learning\EmployeeData.csv", "r") as file:
+# with open("EmployeeData.csv", "r") as file:
 #   reader = csv.DictReader(file)
 #   for row in reader:
 #     c = row["City"].strip().title()
@@ -56,3 +56,4 @@ with open("Mumbai_Sales_Data.csv","w", newline="") as file:
   writer.writeheader()
   writer.writerows(mumbai_sales)
 print("Mumbai Sale Data file has been created with the name of Mumbai_Sales_Data.csv")
+
